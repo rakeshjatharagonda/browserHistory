@@ -1,0 +1,49 @@
+.item-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .item-container {
+    flex-direction: row;
+  }
+}
+.time-text {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 13px;
+  min-width: 100px;
+}
+
+.website-container {
+  display: flex;
+  width: 100%;
+  margin-left: 0px;
+  align-items: center;
+}
+.image {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+.logo-title {
+  color: #475569;
+  font-weight: 700;
+  font-size: 15px;
+}
+.url-text {
+  color: #64748b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding-left: 5px;
+}
+.delete-logo {
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+}
